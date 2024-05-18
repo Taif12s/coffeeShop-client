@@ -6,7 +6,7 @@ export const login = createAsyncThunk(
     'users/login', //parameter name
     async (userData) =>{
         try{
-            const response = await axios.post("http://127.0.0.1:3002/login",{
+            const response = await axios.post("https://coffeeshop-server-mhqa.onrender.com/login",{
                 remail:userData.email,
                 rpassword:userData.password,
             });
@@ -25,7 +25,7 @@ export const registerUser = createAsyncThunk('users/registerUser', //parameter n
 async (userData) =>{
         try{
             console.log(userData);
-            const response = await axios.post("http://127.0.0.1:3002/registerUser",{
+            const response = await axios.post("https://coffeeshop-server-mhqa.onrender.com/registerUser",{
                 name: userData.name,
                 email: userData.email,
                 phone: userData.phone,
@@ -45,7 +45,7 @@ async (userData) =>{
 //get user details 
 export const getProfiles = createAsyncThunk("users/getProfiles", async (userData) => {
     try {
-      const response = await axios.get("http://127.0.0.1:3002/getProfiles");
+      const response = await axios.get("https://coffeeshop-server-mhqa.onrender.com/getProfiles");
       return response.data.user;
     } 
     catch (error) {
@@ -56,7 +56,7 @@ export const getProfiles = createAsyncThunk("users/getProfiles", async (userData
 //updateProfile
 export const updateUser = createAsyncThunk("users/updateUser", async (profileData) => {
     try {
-        const response = await axios.post("http://127.0.0.1:3002/updateProfile", {
+        const response = await axios.post("https://coffeeshop-server-mhqa.onrender.com/updateProfile", {
             uemail: profileData.pemail,
             uid: profileData.uid,
         });
