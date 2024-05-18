@@ -1,0 +1,272 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/*Home1*/
+.farm-background {
+  background-image: url(../src/Images/co.png); /* Replace with your farm background image */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logo{
+  width: 450px;
+  height: 250px;
+}
+
+.navs{
+  padding: 5px;
+  margin-left: 30px;
+  margin-right: 60px;
+  margin-top: 10px;
+}
+
+.nav1{
+  color: white;
+}
+
+.text {
+  font-size: 120px;
+  text-align: center;
+  color: #935E28;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.img{
+  margin-right: 20px;
+  height: 550px;
+}
+
+/*Home2*/
+.farm-background2 {
+  background-image: url(../src/Images/ba.png); /* Replace with your farm background image */
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+}
+
+.img2{
+  height: 450px;
+  align-items: center;
+  margin-right: 60px;
+}
+
+.text3 {
+  font-size: 45px;
+  color: #935E28;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  text-align: center;
+  margin-left: 130px;
+}
+
+.text4 {
+  font-size: 40px;
+  color: #FEAA23;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  text-align: inherit;
+  margin-left: 150px;
+}
+
+.text5 {
+  font-size: 30px;
+  color: #000000;
+  text-align: inherit;
+  margin-left: 200px;
+  margin-top: 25px;
+}
+
+.button1{
+  margin-left: 500px;
+  margin-top: 55px;
+  height:50px;
+  width: 190px;
+  background-color: #744D14;
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+  border-radius: 10px;
+}
+
+.img3{
+  height: 40px;
+  margin-top: 70px;
+  margin-left: 63px;
+}
+
+/*Login, SignUp*/
+.logo2{
+  width: 150px;
+  height: 150px;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.text_login {
+  font-size: 50px;
+  text-align: center;
+  color: #935E28;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+}
+
+.col1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button2{
+  margin-left: 70px;
+  background-color: #744D14;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  height:50px;
+  width: 190px;
+  border-radius: 15px;
+}
+
+.form-lable{
+  color: black;
+  text-align: center;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.error{
+  color: red;
+  font-size: small;
+}
+
+/*AboutUs*/
+.text-h1{
+  font-size: 55px;
+  color: #935E28;
+  font-family: 'Galada, cursive';
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.text-p{
+  font-size: 30px;
+  height: auto;
+  width: auto;
+  text-align: justify;
+  margin-left: 90px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/*Menu*/
+
+.imgC{
+  height: 150px;
+  width: 115px;
+}
+
+.imgS{
+  height: 140px;
+  width: 115px;
+  margin-top: 10px;
+}
+
+.card{
+  align-items: center;
+  background-color: #F5F5F5;
+}
+
+.cardT{
+  font-size: 30px;
+}
+
+/*Coffee*/
+.americanoImg{
+  height: 250px;
+}
+
+.cardt{
+  font-size: 30px;
+  margin-top: 20px;
+  font-family:'Courier New', Courier, monospace;
+  font-style: oblique;
+  font-weight: bold;
+}
+
+.ctext {
+  font-size: 100px;
+  margin-left: 500px;
+  margin-bottom: 15px;
+  color: #935E28;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.lableB{
+  font-size: 20px;
+}
+
+.lableB2{
+  font-size: 25px;
+  color: #EF8829;
+}
+
+.colC{
+  margin-left: 30px;
+}
+
+/* Profile */
+
+.lableCard{
+  font-weight: bold;
+  margin-right: 20px;
+  font-size: 25px;
+}
+.pro{
+  height: 50px;
+  width: 20px;
+}
